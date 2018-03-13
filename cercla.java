@@ -18,6 +18,22 @@ public class Cercle {
         this.y= Cercle.y;
     }
 
+      public float getX() {
+        return x;
+    }
+
+    public float getY() {
+        return y;
+    }
+
+    public void setX(float x) {
+        this.x = x;
+    }
+
+    public void setY(float y) {
+        this.y = y;
+    }
+    
     @Override
     public String toString() {
         return "Cercle{" + "x=" + x + ", y=" + y + '}';
